@@ -10,7 +10,7 @@ export class RecipeListComponent implements OnInit {
   @Output() RecipeWasSelected = new EventEmitter<Recipe>();
   //@ViewChild ('recipes'){static: true} recipes: ElementRef;
   //recipes: ElementRef;
-  receipes: Recipe[] = [ new Recipe('A test recipe', 'Good food for you','https://i1.wp.com/www.eatthis.com/wp-content/uploads/2019/10/pumpkin-pad-thai-recipe.jpg?resize=970%2C546&ssl=1') ];
+  recipes: Recipe[] = [ new Recipe('A test recipe', 'Good food for you','https://i1.wp.com/www.eatthis.com/wp-content/uploads/2019/10/pumpkin-pad-thai-recipe.jpg?resize=970%2C546&ssl=1') ];
 
   constructor() { }
 
